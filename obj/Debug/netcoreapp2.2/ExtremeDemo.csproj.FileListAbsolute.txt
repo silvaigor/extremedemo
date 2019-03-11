@@ -16,7 +16,6 @@ C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.TagHelpe
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.RazorCoreGenerate.cache
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Error.g.cshtml.cs
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Index.g.cshtml.cs
-C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Privacy.g.cshtml.cs
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_CookieConsentPartial.g.cshtml.cs
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_Layout.g.cshtml.cs
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\Shared\_ValidationScriptsPartial.g.cshtml.cs
@@ -28,3 +27,5 @@ C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.Views.pd
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.dll
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.pdb
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.csproj.CopyComplete
+C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\PeriodicPlan.g.cshtml.cs
+C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\CostumerClass.g.cshtml.cs

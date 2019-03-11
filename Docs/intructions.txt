@@ -1,0 +1,3 @@
+create new page    
+    dotnet new page -n PeriodicPlan -na ExtremeDemo.Pages
+
