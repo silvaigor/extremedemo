@@ -1,7 +1,7 @@
 ﻿@page
-@model PeriodicPlanModel
+@model ExtremeDemo.Pages.DiaryPlanModel
 @{
-    ViewData["Title"] = "Periodic Plan";
+     ViewData["Title"] = "Diary Plan";
 }
 <div class="row">
 
@@ -12,40 +12,23 @@
             .Views(views =>
             {
                 views.Add()
-                    .Name("1 Work Week")
-                    .Type(SchedulerViewType.WorkWeek)
+                    .Name("Day")
+                    .Type(SchedulerViewType.Day)
                     .IntervalCount(1)
                     .StartDate(new DateTime(2019, 3, 11))
                     .MaxAppointmentsPerCell(MaxAppointmentsPerCell.Auto);
-
-                views.Add()
-                    .Name("2 Work Week")
-                    .Type(SchedulerViewType.WorkWeek)
-                    .IntervalCount(1)
-                    .StartDate(new DateTime(2019, 3, 18));
-              
-                views.Add()
-                    .Name("3 Work Week")
-                    .Type(SchedulerViewType.WorkWeek)
-                    .IntervalCount(1)
-                    .StartDate(new DateTime(2019, 3, 25));
-                views.Add()
-                    .Name("4 Work Week")
-                    .Type(SchedulerViewType.WorkWeek)
-                    .IntervalCount(1)
-                    .StartDate(new DateTime(2019, 4, 1));
             })
               .Resources(res =>
                 {
                     res.Add()
                         .FieldExpr("vcCodClass")
                         .ValueExpr("vcClassType")
-                        .DisplayExpr("Classe Comercial")
+                        .DisplayExpr("vcClassType")
                         .ColorExpr("vcCor")
                         .Label("vcClassType")
                         .DataSource(d => d.RemoteController().LoadUrl(Url.Page("CostumerClass", "ClassTypes")).Key("vcCodClass"));
                 })
-            .CurrentView(SchedulerViewType.WorkWeek)
+            .CurrentView(SchedulerViewType.Day)
             .CurrentDate(new DateTime(2019, 3, 11))
             .StartDayHour(9)
             .Height(600)
@@ -105,4 +88,3 @@
         </div>
 
 </div>
-

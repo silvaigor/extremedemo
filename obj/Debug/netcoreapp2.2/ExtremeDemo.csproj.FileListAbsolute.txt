@@ -29,3 +29,4 @@ C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.pdb
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\ExtremeDemo.csproj.CopyComplete
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\PeriodicPlan.g.cshtml.cs
 C:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\CostumerClass.g.cshtml.cs
+c:\Users\igor\Documents\ExtremeDemo\obj\Debug\netcoreapp2.2\Razor\Pages\DiaryPlan.g.cshtml.cs
